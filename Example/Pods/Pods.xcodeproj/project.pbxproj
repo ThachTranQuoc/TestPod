@@ -17,6 +17,8 @@
 		8C5A9297C648EEEC636D60164EC2B787 /* TestPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4745DBACF1FB209AE689179A1456A57D /* TestPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9842E3351CE0E59D00333746 /* MyFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9842E3331CE0E59D00333746 /* MyFile.h */; };
 		9842E3361CE0E59D00333746 /* MyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9842E3341CE0E59D00333746 /* MyFile.m */; };
+		9842E3371CE0E83400333746 /* MyFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9842E3331CE0E59D00333746 /* MyFile.h */; };
+		9842E3381CE0E83900333746 /* MyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9842E3341CE0E59D00333746 /* MyFile.m */; };
 		F12C67B4F849A5C93F9472A40E619B67 /* Pods-TestPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B9566B29147755F11F6D4CEDE29E2 /* Pods-TestPod_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -248,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9842E3371CE0E83400333746 /* MyFile.h in Headers */,
 				8C5A9297C648EEEC636D60164EC2B787 /* TestPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				242927BBBC51CEE2929DC061347DF7A7 /* TestPod-dummy.m in Sources */,
+				9842E3381CE0E83900333746 /* MyFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
